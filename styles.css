@@ -1,0 +1,21 @@
+:root {
+    --bg-color: hsl(0, 0%, 90%)
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.hero {
+    padding: 25%;
+    width: 70%;
+}
+
+.logo {
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.icon-img {
+    width: 5rem;
+}

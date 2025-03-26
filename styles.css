@@ -9,13 +9,14 @@ body {
 
 h1 {
     font-size: 96px;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
     line-height: 0px;
 }
 
 p {
     font-size: 40px;
+    font-weight: 400px;
 }
 
 .hero {
@@ -30,6 +31,12 @@ p {
     margin-right: 5%;
 }
 
+.logo-imgs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
 .hero-right {
     /* flex: 2; */
 }
@@ -41,5 +48,6 @@ p {
 }
 
 .icon-img {
-    width: 5rem;
+    width: 80px;
+    margin-right: 7.5%;
 }

@@ -4,16 +4,39 @@
 
 body {
     background-color: var(--bg-color);
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 0px;
+}
+
+p {
+    font-size: 40px;
 }
 
 .hero {
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-left {
+    /* flex: 1; */
+    margin-right: 5%;
+}
+
+.hero-right {
+    /* flex: 2; */
 }
 
 .logo {
     width: 20rem;
+    height: 20rem;
     border-radius: 50%;
 }
 

@@ -23,7 +23,6 @@ h1 {
 
 p {
     font-size: calc(2vw + 0.5rem);
-    /* font-size: 40px; */
     font-weight: 400px;
 }
 
@@ -36,7 +35,6 @@ p {
 }
 
 .hero-left {
-    /* flex: 1; */
     padding-right: 5%;
 }
 
@@ -49,12 +47,10 @@ p {
 
 .logo {
     width: calc(20vw + 5rem);
-    /* height: 20rem; */
     border-radius: 50%;
 }
 
 .icon-img {
-    /* width: 4rem; */
     width: calc(5vw + 0.05rem);
 }
 
@@ -71,10 +67,6 @@ p {
 }
 
 @media (max-width: 1000px) {
-    body {
-        /* height: 100vh; */
-    }
-
     .hero {
       flex-direction: column;
     }
@@ -103,7 +95,6 @@ p {
 
     p {
         font-size: calc(2vw + 0.5rem);
-        /* font-size: 40px; */
         font-weight: 400px;
     }
   }

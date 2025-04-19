@@ -58,10 +58,6 @@ p {
     padding-right: 12%;
 }
 
-.vertical {
-    width: calc(4vw + 0.05rem);
-}
-
 #palette {
     cursor: pointer;
 }
@@ -83,10 +79,6 @@ p {
 
     .icon-img {
         width: calc(10vw + 0.05rem);
-    }
-
-    .vertical {
-        width: calc(8vw + 0.025rem);
     }
 
     h1 {

@@ -72,11 +72,11 @@ p {
 
     .logo {
         width: calc(25vw + 5rem);
-        padding-bottom: 10%;
     }
 
     .hero-left {
         order: 2;
+        padding-top: 2%;
     }
 
     .icon-imgs {
@@ -84,7 +84,7 @@ p {
     }
 
     .icon-img {
-        width: calc(5vw + 0.05rem);
+        width: calc(5vw + 0.5rem);
     }
 
     h1 {
